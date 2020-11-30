@@ -1,0 +1,19 @@
+
+.Header{
+    height: 60px;
+    width:40px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    position: sticky;
+    z-index: 100;
+    top:0;
+}
+
+.header__logo{
+    width:100px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top:18px;
+    /* background-image: url("./assets/amazon.jpg") */
+}
